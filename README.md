@@ -119,3 +119,7 @@ docker build -t checksum-analisador .
  ```bash
  docker run --rm -v $(pwd):/app checksum-analisador
  ```
+
+# Para modificar o tipo de avaliação (.pcap ou tempo real)
+
+Modificar o aquivo Dockerfile responsável pelo build da imagem para main_pcap.py (.pcap) para main.py (Tempo real)
